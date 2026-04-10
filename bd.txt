@@ -1,0 +1,18 @@
+CREATE DATABASE sistema;
+
+USE sistema;
+
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+INSERT INTO usuarios (usuario, password) VALUES ('admin', '1234');
+
+CREATE TABLE registros (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100),
+    edad INT,
+    correo VARCHAR(100)
+);
