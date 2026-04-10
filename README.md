@@ -1,5 +1,5 @@
 # Semana_10-Lab2
-Alumno: Omar David Ventura Cruz
+# Alumno: Omar David Ventura Cruz
 DATOS DE ACCESO:
 Usuario: admin
 Contraseña: 1234
